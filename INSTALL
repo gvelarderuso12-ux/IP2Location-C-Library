@@ -268,8 +268,15 @@ type, such as `sun4', or a canonical name which has the form:
 
 where SYSTEM can have one of these forms:
 
-     OS
-     KERNEL-OS
+    wget https://github.com/ip2location/ip2location-traceroute/archive/master.zip
+2. Unzip the package.
+
+unzip master.zip && rm master.zip
+3. Compile and install IP2Trace.
+
+make
+make install 
+     
 
    See the file `config.sub' for the possible values of each field.  If
 `config.sub' isn't included in this package, then this package doesn't
